@@ -1,12 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Ali Hossain - Portfolio Website with AOS</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+  <header>
+    <section class="header">
+      <div data-aos="flip-up" class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <!-- 
+    Introduction Page 
+  -->
+  <section class="intro_page">
+    <div class="intro">
+      <h3>HELLO, MY NAME IS</h3>
+      <h1>Ali Hossain</h1>
+      <h2>Web Developer (WordPress)</h2>
+      <p>I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction.
+        I love to solve real-world problems. I am strategic, goal-oriented, and always work with an end goal in mind.
+      </p>
+      <form action="">
+        <input data-aos="zoom-in" type="submit" value="Hire Me">
+        <input data-aos="zoom-in" type="submit" value="About Me">
+      </form>
+    </div>
+    <div data-aos="zoom-in" class="img">
+      <img src="images/ali_hossain.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- 
+    About Me section 
+  -->
+
+  <section class="about_me ">
+    <div class="vid">
+
+      <i class="fa-regular fa-circle-play"></i>
+      <video src="video/Ali Hossain Pixel perfect web developer.mp4" controls></video>
+    </div>
+    <div class="about">
+      <h1>About Me</h1>
+      <h2>Why You Hire Me?</h2>
+      <p>Over the past years, I created 100s of websites for my clients. I pride myself on doing quality work and
+        maintain excellent communication. Most of the time I work with WordPress but some technologies I enjoy working
+        with include ReactJS, JavaScript as well as PHP.</p>
+      <div class="rsec">
+        <div class="r1">
+          <h1>100%</h1>
+          <h2>Success rate</h2>
+        </div>
+        <div class="r2">
+          <h1>1,000+</h1>
+          <h2>Hours of work</h2>
+        </div>
+        <div class="r3">
+          <h1>350+</h1>
+          <h2>Happy Clients</h2>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="service">
+    <h1>Services</h1>
+    <h2>What I will do for you?</h2>
+    <div class="section">
+      <div class="sec" data-aos="fade-right">
+        <i class="fa-brands fa-html5"></i>
+        <h2>PSD TO HTML5</h2>
+        <p>I will convert your PSD to HTML5 with Latest Bootstrap. It will fully responsive. Pixel perfect code and
+          fresh hand code is my power. If you have any design or idea I can make it a website.</p>
+      </div>
+      <div data-aos="zoom-in" class="sec">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>FRONT-END DEVELOPER</h2>
+        <p>I’m a Front End Web developer who is passionate about making error-free websites with 100% client
+          satisfaction.</p>
+      </div>
+      <div data-aos="fade-left" class="sec">
+        <i class="fa-brands fa-wordpress"></i>
+        <h2>WORDPRESS DEVELOPER</h2>
+        <p>I love to develop WordPress websites. I developed more than 300 WordPress websites. It’s fun to create a
+          WordPress website and you will be able to control the complete website from the admin panel.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h1>Portfolio</h1>
+    <h2>Latest Projects</h2>
+    <div class="psection">
+      <div data-aos="zoom-out-right" class="sec">
+        <img src="images/p1.jpg" alt="">
+        <h4>Wordpress</h4>
+        <h2>WordPress Theme Development</h2>
+      </div>
+      <div data-aos="zoom-in" class="sec">
+        <img src="images/p2.jpg" alt="">
+        <h4>Wordpress</h4>
+        <h2>PSD to WordPress development</h2>
+      </div>
+      <div data-aos="zoom-out-left" class="sec">
+        <img src="images/p3.jpg" alt="">
+        <h4>Wordpress</h4>
+        <h2>XD to WordPress</h2>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial">
+    <h1>Testimonial</h1>
+    <h2>What Clients Say</h2>
+    <div class="tsection">
+      <div data-aos="fade-up-right" class="sec">
+        <p>Very experienced and super fast. Weren’t able to get one thing done but not his fault. I will definitely use
+          him again. Very nice guy!</p>
+        <img src="images/t1.jpg" alt="">
+        <h3>mbdevboston <span>Designer</span> </h3>
+
+      </div>
+      <div data-aos="zoom-in-up" class="sec">
+        <p>Great experience, highly recommend. Worked through all my questions with me and was very timely in his
+          responsiveness.</p>
+        <img src="images/t2.jpg" alt="">
+        <h3>rossbrown <span>Manager</span> </h3>
+
+      </div>
+      <div data-aos="fade-up-left" class="sec">
+        <p>He was excellent to work with, and he did a great job fixing osme issues that we had</p>
+        <img src="images/t3.jpg" alt="">
+        <h3>ryangladhill <span> Manager</span></h3>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="contact">
+    <h1>Contact</h1>
+    <h2>Connect with me</h2>
+    <div class="csec">
+      <div data-aos="zoom-in"
+      data-aos-duration="1500" class="csec_left">
+        <img src="images/contact1.png" alt="">
+        <h1>Ali Hossain</h1>
+        <h2>Web Developer (WordPress)</h2>
+        <p>Are You Looking For Your Business Online Presence? I am here.</p>
+        <ul>
+          <li><i class="fa-brands fa-skype"></i> shovo654</li>
+          <li><i class="fa-solid fa-envelope"></i> shovoalways@gmail.com</li>
+        </ul>
+      </div>
+      <div data-aos="zoom-in"
+            data-aos-duration="1500" class="csec_right">
+        <form action="">
+          <label for="name">Your name</label>
+          <input type="text" id="name">
+          <label for="email">Your Email</label>
+          <input type="email" id="email">
+          <label for="sub">Subject</label>
+          <input type="text" id="sub">
+          <label for="massage">Your message (optional)</label>
+          <textarea name="" id="massage"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer data-aos="flip-up" data-aos-duration="500" class="footer">
+    <h2>FIND WITH ME</h2>
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>
+    <div class="cright">
+      <i class="fa-regular fa-copyright"></i>
+      <p>Copyright 2015 - 2022</p>
+      <h1></h1>
+      <p> Ali Hossain</p>
+    </div>
+    <a href="index.html"><i class="fa-solid fa-angle-up"></i></a>
+  </footer>
+
+
+
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="custom.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 220, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 2000, // values from 0 to 3000, with step 50ms
+      mirror: false,
+
+    });
+  </script>
 </body>
+
 </html>
